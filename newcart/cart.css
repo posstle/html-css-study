@@ -1,0 +1,59 @@
+/* @font-face {
+    font-family: '1212121212';
+    src: ;
+} */
+/* 폰트를 만들어서 사용할때 font-face를 사용 */
+
+.container {
+    margin: auto;
+    padding: 30px;
+}
+
+.container-inner {
+    width: 60%;
+    margin: auto;
+}
+
+body {
+    background-color: #c2d3de;
+    margin: 0px;
+    font-family: 'gulim', 'dotum', 'arial';
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+table img {
+    width: 150px;
+}
+
+table {
+    background-color: white;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.input-test {
+    font-size: 20px;
+}
+
+.input-test:focus {
+    border: 2px solid red;
+    background-color: red;
+}
