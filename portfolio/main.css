@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content1 {
+  position: relative;
+  background: linear-gradient(#2E9AFE, #0040FF);
+  display: flex;
+  color: white;
+}
+
+.content1>div {
+  width: 50%;
+}
+
+.content1 div:nth-child(2) {
+  position: absolute;
+  margin: auto;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  color: white;
+  background-color: #424242;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.text-area {
+  width: 50%;
+  margin: 10%;
+}
+
