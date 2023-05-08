@@ -14,15 +14,19 @@ body {
   width: 50%;
 }
 
-.content1 div:nth-child(2) {
+.image-area {
   position: absolute;
-  margin: auto;
+  bottom: 0px;
+  right: -20%;
+}
+
+.image-area > div {
+  width: 30%;
 }
 
 img {
-  width: 50%;
+  width: 100%;
   display: block;
-  margin: auto;
 }
 
 .btn {
@@ -38,3 +42,6 @@ img {
   margin: 10%;
 }
 
+.header-text {
+  font-size: 35px;
+}
