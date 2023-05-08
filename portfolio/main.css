@@ -8,6 +8,7 @@ body {
   background: linear-gradient(#2E9AFE, #0040FF);
   display: flex;
   color: white;
+  height: 45vh;
 }
 
 .content1>div {
@@ -21,7 +22,7 @@ body {
 }
 
 .image-area > div {
-  width: 30%;
+  width: 40%;
 }
 
 img {
@@ -38,10 +39,19 @@ img {
 }
 
 .text-area {
-  width: 50%;
+  width: 100%;
   margin: 10%;
 }
 
 .header-text {
   font-size: 35px;
+}
+
+.content2 {
+  margin: 5%;
+  text-align: center;
+}
+
+.middle-text {
+  font-size: 21px;
 }
