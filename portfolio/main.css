@@ -61,11 +61,32 @@ img {
   text-align: center;
   background-color: #4e61c0;
   color: white;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 40px;
+  padding-bottom: 150px;
 }
 
 .content3>div {
   display: flex;
   justify-content: center;
+  padding: 20px;
+}
+
+i {
+  position: absolute;
+  color: #4e61c0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.icons>div>div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 45%;
+  height: 80%;
+  font-size: 36px;
+  background-color: white;
+  border-radius: 50%;
+  margin: auto;
 }
